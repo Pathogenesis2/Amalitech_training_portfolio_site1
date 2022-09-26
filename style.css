@@ -1,0 +1,657 @@
+* {
+		margin: 0px;
+		padding: 0px;
+	  box-sizing: border-box;
+	}
+body{
+	width: 100%;
+	height: auto;
+	font-family: 'Red Hat Display', sans-serif ;
+	font-size: 1.318vw;
+ 	line-height: 1.903vw;
+	color: rgb(40, 40, 51);
+	margin: 0;
+}
+
+/* General css on buttons*/
+button{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.318vw;
+ 	line-height: 1.903vw;
+	border: none;
+	color: #FAFAFA;
+	padding: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+/*---end---*/
+
+p{
+	color: rgb(135, 135, 157);
+	font-size: 1.318vw;
+ 	line-height: 1.903vw;
+}
+h1{
+	font-size: 4.685vw;
+	line-height: 4.685vw;
+}
+li{
+	list-style: none;
+}
+/*logo and it container*/
+header{ 
+	margin-top: 5.124vw;
+	margin-bottom: 3.66vw;
+}
+#logo{
+	width:  100%;
+	display:  flex;
+	justify-content: center;
+}
+/* ---end---*/
+
+
+/*first column of the page*/
+#nav-container{
+	width: 100%;
+	position:  relative;
+	margin-top: 3.66vw;
+}
+
+#nav-container h1{
+	margin: auto;
+	margin-top: 7.321vw;
+	width: 70%;
+	text-align:  center;
+}
+ #nav-container p{
+ 	text-align: center;
+ 	margin: auto;
+ 	margin-top: 2.196vw;
+ 	width: 90%;
+ }
+#middle{
+	width: 44%;
+	margin: auto;
+}
+
+#but{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#group1, #group2{
+	
+	position: absolute;
+	width: 26.354vw;
+	height: 22.182vw;
+	object-fit: none;
+}
+#other{
+	display: none;
+}
+#group1{
+  	top: -3.66vw;
+  	object-position: 100% 10%;
+  	left: 0vw;
+}
+#group2{
+	object-position: -20% 10%;
+	right: 0vw;
+	top: 0.732vw;
+}
+
+/*---end---*/
+
+/* buttons of first column*/
+#but1{
+	background-color: #4D96A9;
+	margin-right: 0.732vw;
+}
+#v1{
+	color: #8FE3F9;
+	display: inline;
+	margin-left: 0.366vw;
+}
+#but2{
+	background-color: #855FB1;
+	margin-left: 0.732vw;
+}
+#but1:hover{
+	transition: 1s;
+	background-color: rgba(143, 227, 249,0.7);
+}
+#but2:hover{
+	transition: 1s;
+	background-color: #D9B8FF;
+}
+/*---end---*/
+
+/* Second column css */
+#pictures{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#pictures img{
+	width: 16.471vw;
+	height: 15.716vw;
+	border-radius: 0.732vw;
+}
+#pictures ul{
+	max-width: 100%;
+	margin: auto;
+	margin-top: 15%;
+}
+#pictures li{
+	display:  inline;
+	margin: 0.732vw;
+}
+/*---end---*/
+
+/* Third column css */
+#built{
+	margin-top: 5.124vw;
+	width:  100%;
+	display: flex;
+ 	justify-content: center;
+}
+ #built-list{
+ 	text-align: center;
+ 	width: 38%;
+ }
+#overline{
+
+	color: #4D96A9;
+	font-size: 1.171vw;
+	line-height: 1.903vw;
+	letter-spacing: 0.293vw;
+	margin: auto;
+	margin-bottom: 1.464vw;
+}
+#smart{
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	font-size: 2.928vw;
+	line-height: 3.221vw;
+	margin-bottom: 2.562vw;
+}
+/*---end---*/
+
+/* Fourth column css */
+footer{
+	background-image: url("assets/desktop/image-footer.jpg");
+	background-repeat: no-repeat;
+	margin-top:20.249vw;
+	height: auto;
+	margin-bottom: 0px;
+}
+#color{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(77, 150, 168, 0.8);
+	margin: 0px;
+}
+#color ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	color: #FAFAFA;
+	padding: 7vw;
+	padding-bottom: 15vw;
+}
+#color p{
+	color: #FAFAFA;
+	width: 26.5%;
+	margin-left: 38.799vw;
+	margin-top: 2.196vw;
+}
+#but3 div{
+	color: #D9B8FF;
+	margin-left: 0.366vw;
+}
+#but3:hover{
+	background-color: rgba(217, 184, 255, 0.7);
+	transition: 1s;
+}
+#color h1{
+	font-size: 2.928vw;
+	line-height: 3.221vw;
+	margin-left: -40.264vw;
+	width: 25.622vw;
+	margin-top: 1.464vw;
+}
+#color li{
+	position: absolute;
+	margin: auto;
+	margin-top: -0.732px;
+
+}
+#color button{
+	display: flex;
+	background-color: #855FB1;
+	margin-left: 66.618vw;
+	margin-top: 2.928vw;
+}
+@media only screen and (max-width: 480px) {
+	body{
+	font-family: 'Red Hat Display', sans-serif ;
+	font-size: 3.75vw;
+ 	line-height: 5.417vw;
+	color: rgb(40, 40, 51);
+	margin: 0;
+	}
+	p{
+		color: rgb(135, 135, 157);
+		font-size: 3.75vw;
+ 		line-height: 5.417vw;
+	}
+	h1{
+		font-size: 13.333vw;
+		line-height: 13.333vw;
+	}
+	#overline{
+		font-size: 3.333vw;
+		line-height: 5.417vw;
+		letter-spacing: 0.833vw;
+	}
+	#smart{
+		font-size: 8.333vw;
+		line-height: 9.167vw;
+	}
+	
+	main{
+		width: 100%;
+	}
+	#group1, #group2{
+		display: none;
+	}
+	#nav-container{
+	width: 100%;
+	}
+	#logo{
+		width: ;
+		margin: auto;
+	}
+	#other{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: -10.417vw;
+	}
+
+	footer{ 
+		width: 100%; 
+		height: 114vw; 
+		background-image:url("assets/mobile/image-footer.jpg");
+		background-size: cover; 
+		background-repeat: no-repeat; 
+		margin-top: 60.667vw; 
+	} 
+	#color{ 
+		width: 100%;  
+		height: 100%;
+		background-color: rgba(77, 150, 168, 0.8); 
+		text-align: center;
+		padding-top: 25.75vw;
+	} 
+	#color ul{ 
+		width: 100%;
+		position: relative;  
+		display: block; 
+		padding: 0px; 
+		left: 0px;
+		margin: auto;
+	}
+
+	#color p{
+		position: relative;
+		width: 68%;
+		margin: auto;
+		margin-top: 29.167vw;
+		margin-bottom: 10.417vw;
+	}
+	#color h1{
+		width: 70%;
+		position: relative;
+		text-align: center;
+		font-size: 8.333vw;
+		line-height: 9.167vw;
+		margin: auto;
+		margin-bottom: -20.833vw;
+	}
+	#color li{
+		position: relative;
+		display: inline;
+		margin: 0px;
+	}
+
+	button{
+		font-family: 'Red Hat Display', sans-serif;
+		font-size: 3.75vw;
+		position: absolute;
+	 	line-height: 5.417vw;
+		border: none;
+		color: #FAFAFA;
+		padding: 3.125vw;
+		padding-right: 7.292vw;
+		padding-left: 7.292vw;
+		border-radius: 20.833vw;
+		margin-top: 4.167vw;
+	}
+	#color button{
+		position: relative;
+		background-color: #855FB1;
+		display: block;
+		margin: auto;
+	}
+	#v1{
+		color: #8FE3F9;
+		display: inline;
+		margin-left: 5px;
+	}
+	#middle{
+		width: 100%;
+		margin: auto;
+		margin-bottom: 125vw;
+	}
+	#middle li{
+	 	position: relative;
+	 }
+	#but{
+		position: absolute;
+		width: 60%;
+		margin: auto;
+	 }
+	#but3 div{
+		display: inline;
+	}
+	#but1{
+		background-color: #4D96A9;
+		margin-right: 0px;	
+	}
+	#but2{
+		background-color: #855FB1;
+		margin-left: 0px;
+		top: 13.583vw;
+	}
+	#but1:onclick{
+		transition: 1s;
+		background-color: rgba(143, 227, 249,0.7);
+	}
+	#but2:onclick{
+		transition: 1s;
+		background-color: #D9B8FF;
+	}
+	
+	#nav-container h1{
+		margin: auto;
+		margin-top: 20.833vw;
+		text-align:  center;
+		width: 80%;
+	}
+	 #nav-container p{
+	 	text-align: center;
+	 	margin-top: 6.25vw;
+	 	width: 80%;
+	 }
+	#built{
+	width:  100%;
+	margin-bottom: 0px;
+	}
+	#built-list{
+		width: 75%;
+		padding: 0px;
+		margin: auto;
+	}
+	#smart{
+		width: 100%;
+	}
+	#pictures{
+		position: relative;
+		display: block;
+		max-width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 52.083vw;
+	}
+	#pictures img{
+		position: relative;
+		width: 39.583vw;
+		height: auto;
+		border-radius: 2.083vw;
+		display: flex;
+		margin: 2.083vw;
+	}
+	#pictures ul{
+		width: 90%;
+		position: absolute;
+		height: auto;
+		display: grid;
+		grid-template-columns: fit-content(50%) fit-content(50%);
+		grid-template-rows: fit-content(50%) fit-content(50%);
+		margin-top: 0px;
+		margin: 0px;
+		margin: auto;
+		left: 5.958vw;
+	}
+	#pictures li{
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+
+}
+@media only screen and (max-device-width: 801px) and (min-device-width: 481px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#main{
+		width: 100%;
+		overflow: hidden;
+	}
+	#group1, #group2{
+		display: none;
+	}
+	p{
+		font-size: 2.247vw;
+		line-height: 3.246vw;
+	}
+	h1{
+		font-size: 7.99vw;
+		line-height: 7.99vw;
+	}
+	header{ 
+	margin-top: 8.739vw;
+	margin-bottom: 6.242vw;
+	}
+	#logo{
+		margin: auto;
+	}
+	#other{
+		position: relative;
+		margin-top: 12.484vw;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	footer{ 
+		position: relative;
+		width: 100%; 
+		height: 53.433vw; 
+		background-image:url("assets/tablet/image-footer.jpg");
+		background-size: cover; 
+		background-repeat: no-repeat; 
+		margin-top: 37.453vw;
+	} 
+	#color{ 
+		position: relative;
+		width: 100%; 
+		height: 62.422vw;
+		background-color: rgba(77, 150, 168, 0.8); 
+		margin: auto;
+	} 
+	#color ul{ 
+		width: 70%;
+		height: auto;
+		position: relative; 
+		display: block; 
+		padding: 0px;
+		top: 9.988vw;
+		margin: auto;
+	}
+
+	#color p{
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin: auto;
+		margin-top: 4.37vw;
+		margin-bottom: 4.37vw;
+	}
+	#color h1{
+		width: 70%;
+		position: relative;
+		text-align: center;
+		font-size: 4.994vw;
+		line-height: 5.493vw;
+		margin: auto;
+	}
+
+	#color li{
+		position: relative;
+		display: inline;
+		margin: 0px;
+		width: 100%;
+	}
+	button{
+		font-family: 'Red Hat Display', sans-serif;
+		font-size: 2.247vw;
+	 	line-height: 3.246vw;
+		border: none;
+		color: #FAFAFA;
+		padding: 1.873vw;
+		padding-right: 4.37vw;
+		padding-left: 4.37vw;
+		border-radius: 12.484vw;
+		margin-top: 2.497vw;
+	}
+	#but{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+	#but1{
+		background-color: #4D96A9;
+		margin-right: 1.248vw;
+	}
+	#v1{
+		color: #8FE3F9;
+		display: inline;
+		margin-left: 0.624vw;
+	}
+	#but2{
+		background-color: #855FB1;
+		margin-left: 1.248vw;
+	}
+	#but1:onclick{
+		transition: 1s;
+		background-color: rgba(143, 227, 249,0.7);
+	}
+	#but2:onclick{
+		transition: 1s;
+		background-color: #D9B8FF;
+	}
+	#pictures{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 24.969vw;
+		margin-bottom: 6.242vw;
+	}
+	#pictures img{
+		width: 18.727vw;
+		height: 18.727vw;
+		border-radius: 1.248vw;
+	}
+	#pictures ul{
+		max-width: 100%;
+		margin: auto;
+		margin-top: 15%;
+	}
+	#pictures li{
+		display:  inline;
+		margin: 1.248vw;
+	}
+	#color button{
+		display: flex;
+		background-color: #855FB1;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin: auto;
+	}
+	#but3{
+		display: inline;
+		position: relative;
+		margin-right: 0px;
+		margin-top: 0px;
+		top: 0px;
+	}
+	#middle{
+		margin: auto;
+		width: 100%;
+	}
+	#nav-container h1{
+		margin: auto;
+		margin-top: 12.484vw;
+		font-size: 7.99vw;
+		line-height: 7.99vw;
+		text-align:  center;
+	}
+	 #nav-container p{
+	 	text-align: center;
+	 	margin-top: 3.745w;
+	in-right: 0px;
+	 }
+	 #middle ul{
+	 	width: 70%;
+	 	margin: auto;
+	 	margin-top: -6.242vw;
+	 }
+	 #middle li{
+	 	width: 100%;
+	 	position: relative;
+	 }
+	 #middle h1{
+	 	width: 49.938vw;
+	 }
+	#built{
+		width: 100%;
+		padding: 0px;
+		margin: auto;
+	}
+	#built-list{
+		width: 83%;
+		margin: 0px;
+	}
+	#smart{
+		font-size: 4.994vw;
+		line-height: 5.493vw;
+		width: 60%;
+	}
+	#overline{
+		font-size: 1.998vw;
+		line-height: 3.246vw;
+		letter-spacing: 0.499vw;
+	}
+	#stay{
+		width: 100%;
+	}

@@ -379,15 +379,6 @@ footer{
 		margin-left: 0px;
 		top: 13.583vw;
 	}
-	#but1:onclick{
-		transition: 1s;
-		background-color: rgba(143, 227, 249,0.7);
-	}
-	#but2:onclick{
-		transition: 1s;
-		background-color: #D9B8FF;
-	}
-	
 	#nav-container h1{
 		margin: auto;
 		margin-top: 20.833vw;
@@ -560,14 +551,6 @@ footer{
 	#but2{
 		background-color: #855FB1;
 		margin-left: 1.248vw;
-	}
-	#but1:onclick{
-		transition: 1s;
-		background-color: rgba(143, 227, 249,0.7);
-	}
-	#but2:onclick{
-		transition: 1s;
-		background-color: #D9B8FF;
 	}
 	#pictures{
 		width: 100%;

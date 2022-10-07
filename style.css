@@ -1,15 +1,8 @@
 * {
-<<<<<<< HEAD
-		margin: 0px;
-		padding: 0px;
-	  	box-sizing: border-box;
-	  	text-decoration: none;
-=======
 	margin: 0px;
-	padding: 0px;	  
+	padding: 0px;
 	box-sizing: border-box;
-
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
+	text-decoration: none;
 	}
 body{
 	width: 100%;
@@ -34,7 +27,6 @@ button{
 	border-radius: 100px;
 	margin-top: 20px;
 }
-<<<<<<< HEAD
 
 a{
 	font-family: 'Red Hat Display', sans-serif;
@@ -42,8 +34,6 @@ a{
  	line-height: 1.903vw;
  	color: #FAFAFA;
 }
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 /*---end---*/
 
 p{
@@ -231,10 +221,7 @@ footer{
 #but3 div{
 	color: #D9B8FF;
 	margin-left: 0.366vw;
-<<<<<<< HEAD
 	float: right;
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 }
 #but3:hover{
 	background-color: rgba(217, 184, 255, 0.7);
@@ -259,11 +246,7 @@ footer{
 	margin-left: 66.618vw;
 	margin-top: 2.928vw;
 }
-<<<<<<< HEAD
 @media only screen and (max-device-width: 480px) {
-=======
-@media only screen and (max-width: 480px) {
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	body{
 	font-family: 'Red Hat Display', sans-serif ;
 	font-size: 3.75vw;
@@ -369,14 +352,11 @@ footer{
 		border-radius: 20.833vw;
 		margin-top: 4.167vw;
 	}
-<<<<<<< HEAD
 	 a{
 	 	font-family: 'Red Hat Display', sans-serif;
 		font-size: 3.75vw;
 		line-height: 5.417vw;
 	 }
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	#color button{
 		position: relative;
 		background-color: #855FB1;
@@ -413,7 +393,6 @@ footer{
 		margin-left: 0px;
 		top: 13.583vw;
 	}
-<<<<<<< HEAD
 	#but1:onclick{
 		transition: 1s;
 		background-color: rgba(143, 227, 249,0.7);
@@ -422,18 +401,11 @@ footer{
 		transition: 1s;
 		background-color: #D9B8FF;
 	}
-	
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	#nav-container h1{
 		margin: auto;
 		margin-top: 20.833vw;
 		text-align:  center;
-<<<<<<< HEAD
 		width: 70%;
-=======
-		width: 80%;
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	}
 	 #nav-container p{
 	 	text-align: center;
@@ -488,11 +460,7 @@ footer{
 	}
 
 }
-<<<<<<< HEAD
-@media only screen and (max-device-width: 912px) and (min-device-width: 481px){
-=======
-@media only screen and (max-device-width: 801px) and (min-device-width: 481px){
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
+@media only screen and (max-device-width: 976px) and (min-device-width: 481px){
 	*{
 		margin: 0px;
 		padding: 0px;
@@ -588,15 +556,12 @@ footer{
 		border-radius: 12.484vw;
 		margin-top: 2.497vw;
 	}
-<<<<<<< HEAD
 
 	a{
 		font-family: 'Red Hat Display', sans-serif;
 		font-size: 2.247vw;
 	 	line-height: 3.246vw;
 	}
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	#but{
 			width: 100%;
 			display: flex;
@@ -615,7 +580,6 @@ footer{
 		background-color: #855FB1;
 		margin-left: 1.248vw;
 	}
-<<<<<<< HEAD
 	#but1:onclick{
 		transition: 1s;
 		background-color: rgba(143, 227, 249,0.7);
@@ -624,8 +588,6 @@ footer{
 		transition: 1s;
 		background-color: #D9B8FF;
 	}
-=======
->>>>>>> 7398db153d501094afc34c73d782b631d319fe82
 	#pictures{
 		width: 100%;
 		display: flex;

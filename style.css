@@ -15,24 +15,17 @@ body{
 }
 
 /* General css on buttons*/
-button{
+a{
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 1.318vw;
  	line-height: 1.903vw;
 	border: none;
 	color: #FAFAFA;
-	padding: 15px;
-	padding-right: 35px;
-	padding-left: 35px;
-	border-radius: 100px;
-	margin-top: 20px;
-}
-
-a{
-	font-family: 'Red Hat Display', sans-serif;
-	font-size: 1.318vw;
- 	line-height: 1.903vw;
- 	color: #FAFAFA;
+	padding: 1.098vw;
+	padding-right: 2.562vw;
+	padding-left: 2.562vw;
+	border-radius: 7.321vw;
+	margin-top: 1.464vw;
 }
 /*---end---*/
 
@@ -80,35 +73,47 @@ header{
  	margin-top: 2.196vw;
  	width: 90%;
  }
+ #nav-container ul{
+ 	margin-top: -1.196vw;
+ }
 #middle{
 	width: 44%;
 	margin: auto;
 }
 
 #but{
+	position: absolute;
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-top: 1.196vw;	
+	margin-left: -27.7vw;
 }
 #group1, #group2{
-	
-	position: absolute;
+
+	margin-top: -0.66vw;
 	width: 26.354vw;
-	height: 22.182vw;
-	object-fit: none;
+	height: auto;
+	/*position: absolute;
+	22.182vw;
+	object-fit: none;*/
 }
 #other{
 	display: none;
 }
 #group1{
-  	top: -3.66vw;
-  	object-position: 100% 10%;
-  	left: 0vw;
+  	float: left;
+  	
+  	/*object-position: 100% 10%;
+  	left: 0vw;*/
+  	
 }
 #group2{
-	object-position: -20% 10%;
+	float: right;
+
+	/*object-position: -20% 10%;
 	right: 0vw;
-	top: 0.732vw;
+	top: 0.732vw;*/
 }
 
 /*---end---*/
@@ -192,6 +197,7 @@ header{
 
 /* Fourth column css */
 footer{
+	width: 100%;
 	background-image: url("assets/desktop/image-footer.jpg");
 	background-repeat: no-repeat;
 	margin-top:20.249vw;
@@ -221,7 +227,7 @@ footer{
 #but3 div{
 	color: #D9B8FF;
 	margin-left: 0.366vw;
-	float: right;
+	display: inline;
 }
 #but3:hover{
 	background-color: rgba(217, 184, 255, 0.7);
@@ -240,7 +246,7 @@ footer{
 	margin-top: -0.732px;
 
 }
-#color button{
+#color a{
 	display: flex;
 	background-color: #855FB1;
 	margin-left: 66.618vw;
@@ -339,7 +345,7 @@ footer{
 		margin: 0px;
 	}
 
-	button{
+	a{
 		font-family: 'Red Hat Display', sans-serif;
 		font-size: 3.75vw;
 		position: absolute;
@@ -352,12 +358,7 @@ footer{
 		border-radius: 20.833vw;
 		margin-top: 4.167vw;
 	}
-	 a{
-	 	font-family: 'Red Hat Display', sans-serif;
-		font-size: 3.75vw;
-		line-height: 5.417vw;
-	 }
-	#color button{
+	#color a{
 		position: relative;
 		background-color: #855FB1;
 		display: block;
@@ -378,11 +379,15 @@ footer{
 	 }
 	#but{
 		position: absolute;
-		width: 60%;
 		margin: auto;
 	 }
-	#but3 div{
-		display: inline;
+	#but3{
+		width: 400px;
+		position: absolute;
+		margin-right: 0px;
+		margin-top: 0px;
+		top: 0px;
+		margin: auto;
 	}
 	#but1{
 		background-color: #4D96A9;
@@ -523,6 +528,8 @@ footer{
 
 	#color p{
 		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
 		position: relative;
 		text-align: center;
 		margin: auto;
@@ -544,7 +551,7 @@ footer{
 		margin: 0px;
 		width: 100%;
 	}
-	button{
+	a{
 		font-family: 'Red Hat Display', sans-serif;
 		font-size: 2.247vw;
 	 	line-height: 3.246vw;
@@ -556,16 +563,11 @@ footer{
 		border-radius: 12.484vw;
 		margin-top: 2.497vw;
 	}
-
-	a{
-		font-family: 'Red Hat Display', sans-serif;
-		font-size: 2.247vw;
-	 	line-height: 3.246vw;
-	}
 	#but{
 			width: 100%;
 			display: flex;
 			justify-content: center;
+			margin: 0px;
 		}
 	#but1{
 		background-color: #4D96A9;
@@ -602,27 +604,31 @@ footer{
 		border-radius: 1.248vw;
 	}
 	#pictures ul{
-		max-width: 100%;
+		width: 90%;
 		margin: auto;
 		margin-top: 15%;
+		display: flex;
+		justify-content: center;
 	}
 	#pictures li{
-		display:  inline;
-		margin: 1.248vw;
+		padding: 0.248vw;
 	}
-	#color button{
-		display: flex;
+	#color a{
+		position: absolute;
+		display: inline;
 		background-color: #855FB1;
 		margin-left: 0px;
 		margin-top: 0px;
-		margin: auto;
+		
 	}
 	#but3{
-		display: inline;
-		position: relative;
+		display: flex;
+		position: absolute;
 		margin-right: 0px;
 		margin-top: 0px;
 		top: 0px;
+		margin: auto;
+		left: 225px;
 	}
 	#middle{
 		margin: auto;
@@ -638,10 +644,9 @@ footer{
 	 #nav-container p{
 	 	text-align: center;
 	 	margin-top: 3.745w;
-	in-right: 0px;
 	 }
 	 #middle ul{
-	 	width: 70%;
+	 	width:70%;
 	 	margin: auto;
 	 	margin-top: -6.242vw;
 	 }
